@@ -1,0 +1,49 @@
+body {
+    background-color: cornsilk;
+    border-top: solid brown 5px;
+    display: flex 90%;
+}
+@media screen and (min-width:800px) {
+    body {
+        background-color: blue;
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (min-width:400px) {
+    body {
+        background-color: lawngreen;
+        flex-direction: column-reverse;
+    }
+}
+.two {
+    text-align: center;
+    font-family: cursive;
+}
+section {
+    display: flex;
+}
+.three{
+    width: 50%;
+    font-family: fantasy;
+}
+
+.four {
+    width: 50%;
+}
+
+footer {
+}
+.five {
+    list-style-type: none;
+    background-color: inherit;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    background-color: sienna;
+}
+button.ngo {
+    size: 20px;
+    padding: 10px;
+    color: white;
+    background-color: sienna;
+}
