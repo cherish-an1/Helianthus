@@ -1,49 +1,81 @@
 body {
-    background-color: cornsilk;
-    border-top: solid brown 5px;
-    display: flex 90%;
+  margin: 0;
+  padding: 0;
+  background-color: cornsilk;
+  border-top: solid brown 5px;
 }
-@media screen and (min-width:800px) {
-    body {
-        background-color: blue;
-        flex-direction: column-reverse;
-    }
-}
-@media screen and (min-width:400px) {
-    body {
-        background-color: lawngreen;
-        flex-direction: column-reverse;
-    }
-}
+
 .two {
-    text-align: center;
-    font-family: cursive;
-}
-section {
-    display: flex;
-}
-.three{
-    width: 50%;
-    font-family: fantasy;
+  text-align: center;
+  font-family: cursive;
 }
 
-.four {
-    width: 50%;
+.section {
+  display: flex;
 }
 
-footer {
+.section div {
+  width: 49%;
 }
+
+.section div img {
+  width: 100%;
+  max-width: 500px;
+}
+
+footer{
+  background-color: sienna;
+}
+
 .five {
-    list-style-type: none;
-    background-color: inherit;
-    display: flex;
-    justify-content: space-around;
-    color: black;
-    background-color: sienna;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  padding-left: 0;
 }
+
+.five li {
+  width: 23%;
+}
+
 button.ngo {
-    size: 20px;
-    padding: 10px;
-    color: white;
-    background-color: sienna;
+  padding: 10px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: sienna;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-color: rgb(207, 207, 255);
+  }
+
+  .section {
+    flex-direction: row-reverse;
+  }
+
+  .five {
+    flex-wrap: wrap;
+  }
+
+  .five li {
+    width: 49%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background-color: rgb(222, 255, 189);
+  }
+
+  .section {
+    flex-direction: column-reverse;
+  }
+
+  .section div {
+    width: 100%;
+  }
 }
