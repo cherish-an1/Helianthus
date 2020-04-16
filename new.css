@@ -1,0 +1,192 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+container {
+    display: flex;
+}
+.one {
+    width: 5%;
+    background-color: white;
+}
+.one img {
+    width: 70%;
+}
+.one p {
+    color: white;
+}
+.two {
+    width: 95%;
+}
+header {
+    display: flex;
+    background-color: white;
+    height: 15%;
+    margin-top: 5px;
+}
+.three {
+    width: 75%;
+}
+.three img {
+    width: 75%;
+    height: 40%;
+}
+.try {
+    width: 5%;
+}
+.try img {
+    width: 100%;
+    height: 40%;
+}
+.four {
+    width: 30%;
+    text-align: center;
+}
+.five {
+    text-align: center;
+    line-height: 90px;
+    font-size: 40px;
+}
+button.ngo {
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+.six {
+    height: 50%;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -120px;
+    padding: 0;
+}
+.five h1 {
+    font-size: 50px;
+    color: green;
+}
+.seven {
+    background-color: black;
+    height: 70%;
+    margin-top: -10px;
+}
+.eight {
+    color: white;
+}
+.hey {
+    display: flex;
+}
+.nine {
+    width: 30%;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.nine img {
+    width: 100%;
+    height: 70%;
+}
+.nine p {
+    color: white;
+}
+.nine h1 {
+    color: white;
+}
+.ten {
+    width: 30%;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.ten img {
+    width: 100%;
+    height: 70%;
+}
+.ten h1 {
+    color: white;
+}
+.ten p {
+    color: white;
+}
+.eleven {
+    width: 30%;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.eleven img {
+    width: 100%;
+    height: 70%;
+}
+.eleven h1 {
+    color: white;
+}
+.eleven p {
+    color: white;
+}
+.goat {
+    width: 30%;
+    margin-top: 10px;
+}
+.goat img {
+    width: 100%;
+    height: 70%;
+}
+.goat h1 {
+    color: white;
+}
+.goat p {
+    color: white;
+}
+
+footer p {
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-color: yellow;
+    }
+    .hey {
+        flex-direction: ;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        background-color: lightcoral;
+    }
+    header {
+        display: grid;
+        height: 15%;
+        width: 100%;
+    }
+    .try {
+        margin-top: -40px;
+        height: 100%;
+    }
+    .four {
+        width: 20%;
+        margin-top: -70px;
+    }
+    .five {
+        line-height: 50px;
+    }
+    .six {
+        height: 30%;
+    }
+    .hey {
+        display: grid;
+    }
+    .nine {
+        display: flex;
+    }
+    .ten {
+        display: flex;
+    }
+    .eleven {
+        display: flex;
+    }
+    .goat {
+        display: flex;
+    }
+}
