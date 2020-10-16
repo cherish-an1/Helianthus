@@ -1,81 +1,81 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-color: cornsilk;
-  border-top: solid brown 5px;
+    margin: 0;
+    padding: 0;
+    background-color: cornsilk;
+    border-top: solid brown 5px;
 }
 
 .two {
-  text-align: center;
-  font-family: cursive;
+    text-align: center;
+    font-family: cursive;
 }
 
 .section {
-  display: flex;
+    display: flex;
 }
 
 .section div {
-  width: 49%;
+    width: 49%;
 }
 
 .section div img {
-  width: 100%;
-  max-width: 500px;
+    width: 100%;
+    max-width: 500px;
 }
 
-footer{
-  background-color: sienna;
+footer {
+    background-color: sienna;
 }
 
 .five {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-  color: black;
-  padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    padding-left: 0;
 }
 
 .five li {
-  width: 23%;
+    width: 23%;
 }
 
 button.ngo {
-  padding: 10px;
-  color: white;
-  border: 1px solid white;
-  border-radius: 10px;
-  background-color: sienna;
-  width: 100%;
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: sienna;
+    width: 100%;
 }
 
 @media screen and (max-width: 800px) {
-  body {
-    background-color: rgb(207, 207, 255);
-  }
-
-  .section {
-    flex-direction: row-reverse;
-  }
-
-  .five {
-    flex-wrap: wrap;
-  }
-
-  .five li {
-    width: 49%;
-  }
+    body {
+        background-color: rgb(207, 207, 255);
+    }
+    .section {
+        flex-direction: row-reverse;
+    }
+    .five {
+        flex-wrap: wrap;
+    }
+    .five li {
+        width: 49%;
+    }
 }
 
 @media screen and (max-width: 400px) {
-  body {
-    background-color: rgb(222, 255, 189);
-  }
+    body {
+        background-color: rgb(222, 255, 189);
+    }
+    .section {
+        flex-direction: column-reverse;
+    }
+    .section div {
+        width: 100%;
+    }
+}
 
-  .section {
-    flex-direction: column-reverse;
-  }
-
-  .section div {
-    width: 100%;
-  }
+.form {
+    margin: 20px;
+    padding: 20px;
 }
